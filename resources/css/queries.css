@@ -19,28 +19,13 @@
         margin-left: 10%;
     }
     
-    .steps-box { margin-top: 10px; }
-    .steps-box:last-child { margin-top: 10px; }
-    .works-steps { margin-bottom: 40px; }
     .works-step:last-of-type { margin-bottom: 60px; }
     
-    .app-screen { width: 50%; }
-    
-    .icon-small { 
-        width: 17px;
-        margin-right: 5px;
-    }
-    
-    .city-feature { font-size: 90%; }
-    
-    .plan-box {
-        width: 100%;
-        margin-left: 0%;
-    }
-    
-    .plan-price { font-size: 250%; }
+    #map { width: 50%; }
+           
     .contact-form { width: 80%; }
 }
+
 
 
 
@@ -49,12 +34,14 @@
     body { font-size: 16px; }
     section { padding: 30px 0; }
     
+    
     .row,
-    .hero-text-box { padding: 0 4%; }
+    .hero-text-box { padding: 0 2%; }
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
     }
+   
     
     
     .main-nav { display: none; }
@@ -78,6 +65,12 @@
         font-size: 100%;
     }
     
+    .icon-small{
+       position: relative;       
+       right: -10px; 
+       font-size: 250%;
+    }
+    
     .sticky .main-nav { margin-top: 10px; }
 
     .sticky .main-nav li a:link,
@@ -88,14 +81,15 @@
     
     
     h1 { font-size: 180%; }
+
     h2 { font-size: 150%; }
     
     .long-copy {
         width: 100%;
-        margin-left: 0%;
+        margin-left: 0%; 
     }
     
-    .app-screen { width: 40%; }
+    #map { width: 40%; }
     .steps-box:first-child { text-align: center; }
     
     .works-step div {
@@ -115,6 +109,7 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    h1 {display: none;}
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
 }
